@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnok" Content="OK" HorizontalAlignment="Left" Height="47" Margin="288,320,0,0" VerticalAlignment="Top" Width="128" Click="Btnok_Click"/>
+        <ListBox x:Name="lst" HorizontalAlignment="Left" Height="179" Margin="133,188,0,0" VerticalAlignment="Top" Width="150">
+            <ListBoxItem Content="" Width="58"/>
+        </ListBox>
+        <ListBox x:Name="lst2" HorizontalAlignment="Left" Height="177" Margin="421,188,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label Content="Hinhtron" HorizontalAlignment="Left" Margin="460,149,0,0" VerticalAlignment="Top" FontSize="18" Background="#FFFF2F2F"/>
+        <Label Content="Hinh vuong" HorizontalAlignment="Left" Margin="161,149,0,0" VerticalAlignment="Top" FontSize="18"/>
+
+    </Grid>
+</Window>
